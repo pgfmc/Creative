@@ -1,0 +1,12 @@
+name: Creative
+version: 1.0.0
+api-version: 1.16
+author: bk
+main: tk.pgfriends.creative.Main
+description: Framework for the Creative world 
+commands:
+  plot:
+    description: Plot settings
+    usage: /<command>
+    aliases: [land, p, pl, claim]
+  survival:
