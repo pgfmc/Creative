@@ -1,5 +1,7 @@
 package tk.pgfriends.creative.events;
 
-public class InventoryEvents {
+import org.bukkit.event.Listener;
+
+public class InventoryEvents implements Listener {
 
 }
