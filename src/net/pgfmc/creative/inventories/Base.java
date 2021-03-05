@@ -1,4 +1,4 @@
-package tk.pgfriends.creative.inventories;
+package net.pgfmc.creative.inventories;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ public class Base implements InventoryHolder {
 	
 	private void init() // This is where we create the inventory // For organization
 	{
-		ItemStack testItem = createItem("Your Plot", Material.ENDER_PEARL, createLore("§eTeleport to your plot", "§c§oCreates a plot if you don't have one")); // Creates an ItemStack with a name, Material, and Lore
+		ItemStack testItem = createItem("Your Plots", Material.ENDER_PEARL, createLore("§eTeleport to your plot", "§c§oCreates a plot if you don't have one")); // Creates an ItemStack with a name, Material, and Lore
 		inv.addItem(testItem);
 	}
 	
