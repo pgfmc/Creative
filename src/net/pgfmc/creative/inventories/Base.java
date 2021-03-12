@@ -21,8 +21,8 @@ public class Base implements InventoryHolder {
 	
 	private void init() // This is where we create the inventory // For organization
 	{
-		ItemStack testItem = createItem("Your Plots", Material.ENDER_PEARL, createLore("§eTeleport to your plot", "§c§oCreates a plot if you don't have one")); // Creates an ItemStack with a name, Material, and Lore
-		inv.addItem(testItem);
+		ItemStack item = createItem("Your Plots", Material.ENDER_PEARL, createLore("§eTeleport to your plot", "§c§oCreates a plot if you don't have one")); // Creates an ItemStack with a name, Material, and Lore
+		inv.setItem(0, item);
 	}
 	
 	private ItemStack createItem(String name, Material mat, List<String> lore)

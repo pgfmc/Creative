@@ -7,9 +7,12 @@ import net.pgfmc.creative.events.InventoryEvents;
 
 public class Main extends JavaPlugin {
 	
+	public static Main plugin;
+	
 	@Override
 	public void onEnable()
 	{
+		plugin = this;
 		getCommand("plot").setExecutor(new Plot()); // Registers Plot command class
 		getServer().getPluginManager().registerEvents(new InventoryEvents(), this);
 	}

@@ -1,6 +1,5 @@
 package net.pgfmc.creative.commands;
 
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -19,8 +18,6 @@ public class Plot implements CommandExecutor {
 		Base gui = new Base();
 		
 		p.openInventory(gui.getInventory());
-		
-		p.sendMessage(ChatColor.AQUA + "GUI opened");
 		
 		
 		
