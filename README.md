@@ -1,2 +1,3 @@
 # Creative
-Creative stuff Spigot plugin
+**Creative**
+*Foundation for the Creative world*
